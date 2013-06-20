@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>FilesSyncForDistributedServer</groupId>
+	<artifactId>FilesSyncForDistributedServer</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0</version>
+	<!-- TODO project name  -->
+	<name>quickstart</name>
+	<description></description>
+
+	<!-- TODO
+		<organization>
+		<name>company name</name>
+		<url>company url</url>
+		</organization>
+	-->
+    <dependencies>
+        <dependency>
+            <groupId>jnotify</groupId>
+            <artifactId>notify</artifactId>
+            <version>0.93</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/src/main/resources/jnotify/jnotify-notify-0.93.jar</systemPath>
+        </dependency>
+    </dependencies>
+
+
+</project>
